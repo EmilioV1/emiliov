@@ -19,24 +19,33 @@
                 </nav>
             </div>
         </header>
-    </body>
-            <h1>Emilio Valladares</h1>
+        <div id="main-container" class="container">
+            <section class="main-section">
+                <h1>Contact Info</h1>
+                <form id="contact-form">
+                    <ul>
+                        <li>
+                            <label for="name">Your Name</label>
+                            <input name="Name" type="text" placeholder="John Smith" required="required">
+                        </li>
+                        <li>
+                            <label for="email">Your Email</label>
+                            <input name="Email" type="email" placeholder="example@gmail.com" required="required">
+                        </li>
+                        <li>
+                            <label for="message">Message</label>
+                            <textarea name="Message" rows="5" required="required"></textarea>
+                        </li>
+                    </ul>
+                    <input type="submit">
+                </form>
+            </section>
         </div>
-
-        <div>
-                <h2>Contact</h2>
-        </div>
-        <div>
-            <form method="post" action="">
-                <input name="Name" type="text" placeholder="John Smith" required><br>
-
-                <input name="Email" type="email" placeholder="example@gmail.com" required><br>
-
-                <textarea name="Message" rows="5" required></textarea>
-                
-
-            
-        </div>
-
+        <footer>
+            <div class="container">
+            vallae.wumbo@gmail.com
+            (253)455-9192    
+            </div>
+        </footer>
     </body>
 </html>
