@@ -217,12 +217,12 @@ a:active
     margin-bottom: 10px;
     }
   
-label,input [type=text],
+.label,input [type=text],
 input [type=email],
 textarea
     {
     display: block;
-    width: 100%;
+    width: 98%;
     }
 input[type=text],
 input[type=email],
@@ -262,7 +262,7 @@ input[type=submit]
     {
     body
         {
-        background-color: purple;
+        background-color: cyan;
         }
     }
 @media screen and (max-width: 640px)
@@ -273,7 +273,7 @@ input[type=submit]
         }
     body
         {
-        background-color: gold;
+        background-color: blue;
         }
     }
   
