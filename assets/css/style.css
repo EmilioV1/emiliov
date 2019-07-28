@@ -12,7 +12,17 @@ padding: 10px;
 }
 #logo
 {
-
+float: left;
+width: 350px;
+height: 90px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 30px;
+font-weight: 700;
+line-height: 90px;
+color: white;
+text-align: center;
+text-decoration: none;
+background: forestgreen;
 }
 #main-container
 {
@@ -38,5 +48,19 @@ clear: both;
 }
 .main-section
 {
-
+float: left;
+width: 100%;
+max-width: 960px;
+padding: 30px;
+margin: 0 0 40px;
+background: gray;
+border: 1px solid navy;
+}
+body 
+{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 18px;
+line-height: 34px;
+color: pink;
+background: url(https://www.pixelstalk.net/wp-content/uploads/2016/10/Clean-Backgrounds.jpg);
 }
