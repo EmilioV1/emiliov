@@ -5,3 +5,7 @@ body{
 .project{
     margin: 1em;
 }
+
+.card-title{
+    background-color: rgba(128, 128, 128, 0.493);
+}
