@@ -9,3 +9,7 @@ body{
 .card-title{
     background-color: rgba(128, 128, 128, 0.493);
 }
+
+p{
+    font-size: medium;
+}
