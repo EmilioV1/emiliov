@@ -1,16 +1,97 @@
-body{
+body {
     scroll-behavior: smooth;
     background-color: lightgray;
 }
 
-.project{
+.portfolio {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn{
+    background-color: rgb(6, 72, 126);
+}
+
+.btn:hover {
+    background-color: rgb(66, 21, 117);
+}
+
+.project {
     margin: 1em;
 }
 
-.card-title{
-    background-color: rgba(128, 128, 128, 0.493);
+.card-title {
+    background-color: rgba(0, 0, 0, 0.76);
+    width: 15em;
+    font-size:auto;
 }
 
-p{
-    font-size: medium;
+#about {
+    font-size: x-large;
+}
+
+.links {
+    font-size: large;
+}
+
+.portfolio-image {
+    width: 25vw;
+    max-width: 20vw;
+}
+
+.portfolio-image img {
+    width: 100%;
+    height: auto;
+}
+
+.footerIcon {
+    color: white;
+}
+
+footer {
+    background-color: black;
+}
+
+.icons a {
+    color: black;
+    font-size: 4vw;
+    transition-duration: 500ms;
+}
+
+.icons a:hover {
+    color: rgb(155, 4, 4);
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.footer-nav ul li{
+    margin: 0;
+    padding: 0;
+}
+
+footer>p {
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-nav {
+        flex-direction: column;
+        justify-content: unset;
+        padding: 20px;
+        padding-left: 80px;
+    }
+
+    .icons a {
+        font-size: 6vw;
+    }
+
+    .footer-nav>div {
+        height: 60px
+    }
 }
