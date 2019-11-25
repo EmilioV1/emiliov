@@ -10,7 +10,7 @@ This my site which is constantly changing and growing. Please take the time to s
 * HTML 5
 * CSS 3
 * [Materialize CSS](https://materializecss.com/)
-* Hosted by GitHub
+* Hosted by AWS
 
 ## Compatibility 
 Compatible with most modern browsers and mobile devices
