@@ -43,6 +43,7 @@ body {
 .portfolio-image img {
     width: 100%;
     height: auto;
+    border-radius: 50%;
 }
 
 .footerIcon {
