@@ -41,9 +41,13 @@ body {
 }
 
 .portfolio-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
+  width: 100%;
+  background-color: black;
+  height:auto;
+  overflow: hidden;
+  border-radius: 50%;
+  transition-duration: 500ms;
+  border:2px solid rgb(155, 4, 4);
 }
 
 .footerIcon {
