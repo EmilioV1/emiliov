@@ -9,7 +9,7 @@ body {
     align-items: center;
 }
 
-.btn{
+.btn {
     background-color: rgb(6, 72, 126);
 }
 
@@ -24,7 +24,7 @@ body {
 .card-title {
     background-color: rgba(0, 0, 0, 0.76);
     width: 15em;
-    font-size:auto;
+    font-size: auto;
 }
 
 #about {
@@ -40,14 +40,19 @@ body {
     max-width: 20vw;
 }
 
+.portfolio-image img:hover {
+    background-color: rgb(155, 4, 4);
+    border: 2px solid black;
+}
+
 .portfolio-image img {
-  width: 100%;
-  background-color: black;
-  height:auto;
-  overflow: hidden;
-  border-radius: 50%;
-  transition-duration: 500ms;
-  border:2px solid rgb(155, 4, 4);
+    width: 100%;
+    background-color: black;
+    height: auto;
+    overflow: hidden;
+    border-radius: 50%;
+    transition-duration: 500ms;
+    border: 2px solid rgb(155, 4, 4);
 }
 
 .footerIcon {
@@ -75,7 +80,7 @@ footer {
     text-align: left;
 }
 
-.footer-nav ul li{
+.footer-nav ul li {
     margin: 0;
     padding: 0;
 }
