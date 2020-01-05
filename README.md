@@ -4,7 +4,7 @@
 This my site which is constantly changing and growing. Please take the time to star this repo and feel free to share my site with friends and family!
 
 * [Deployed](http://www.emiliov.me/)
-* [Repo](https://github.com/Nolimits1/nolimits1.github.io)
+* [Repo](https://github.com/emiliov1/emiliov)
 
 ## Technologies
 * HTML 5
