@@ -16,7 +16,7 @@ This my site which is constantly changing and growing. Please take the time to s
 Compatible with most modern browsers and mobile devices
 
 ## Author
-* [Emilio Valladares](https://github.com/Nolimits1)
+* [Emilio Valladares](https://github.com/emiliov1)
 
 
 ## Acknowledgements 
